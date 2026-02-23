@@ -5,7 +5,7 @@ const AudioUploader = () => {
 
     const [file,setFile] = useState(null);
     const [transcription, setTranscription] = useState("");
-
+    //settign the file name
     const handleFileChange = (event)=>{setFile(event.target.files[0].name);console.log('File selected : '+event.target.files[0].name);}
 
     const handleUpload = async () => {
