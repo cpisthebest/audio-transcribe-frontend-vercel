@@ -6,7 +6,7 @@ const AudioUploader = () => {
     const [file,setFile] = useState(null);
     const [transcription, setTranscription] = useState("");
 
-    const handleFileChange = (event)=>{setFile(event.target.files[0]);}
+    const handleFileChange = (event)=>{setFile(event.target.files[0].name);console.log('File selected : '+event.target.files[0].name);}
 
     const handleUpload = async () => {
         const formData = new FormData();
@@ -26,7 +26,7 @@ const AudioUploader = () => {
         <div className="container">
             <h1>Audio To Text Transcriber</h1>
             <div className="file-input">
-                <input type="file" accept="audio/*" onChange={handleFileChange}/>
+                <input type="file" accept="audio/*" onChange={handleFileChange}/>{file && <p>{file}</p>}
             </div>
             <button className="upload-button" onClick={handleUpload}>Upload and transcribe</button>
             <div className="transcription-result">
