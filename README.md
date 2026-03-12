@@ -4,7 +4,7 @@ A simple application that displays the text being said for the uploaded audio fi
 
 ## Demo
 
-Live Demo: https://tasktracker-demo.com
+Live Demo: https://audio-transcribe-frontend-vercel.vercel.app
 
 ## Steps
 
