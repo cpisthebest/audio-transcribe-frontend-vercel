@@ -13,6 +13,7 @@ Live Demo: https://audio-transcribe-frontend-vercel.vercel.app
 
 - Upload audio file
 - Click on Upload and transcribe button
+- The text of the audio file will get displayed in transcription result section
 
 ## Tech Stack
 
