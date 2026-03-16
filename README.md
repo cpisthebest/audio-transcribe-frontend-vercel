@@ -4,7 +4,9 @@ A simple application that displays the text being said for the uploaded audio fi
 
 ## Demo
 
-Live Demo: https://audio-transcribe-frontend-vercel.vercel.app
+Live Demo of UI : https://audio-transcribe-frontend-vercel.vercel.app
+
+Note - Backend repository needs to be hosted for transcription result display
 
 <img width="2026" height="1298" alt="image" src="https://github.com/user-attachments/assets/91a6548f-f919-4c30-9b67-e671d7ad5300" />
 
@@ -19,4 +21,4 @@ Live Demo: https://audio-transcribe-frontend-vercel.vercel.app
 
 - Reactjs
 - CSS
-- Spring AI and java for backend
+- Spring AI and java for backend (code repository - https://github.com/cpisthebest/audio-transcribe-backend )
