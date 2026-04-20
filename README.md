@@ -22,3 +22,12 @@ Note - Backend repository needs to be hosted for transcription result display
 - Reactjs
 - CSS
 - Spring AI and java for backend (code repository - https://github.com/cpisthebest/audio-transcribe-backend )
+
+## Deployment steps for local docker
+
+- docker build -t react-app .
+
+- docker run -p 3000:80 react-app
+
+
+
